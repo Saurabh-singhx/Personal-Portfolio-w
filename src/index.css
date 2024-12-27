@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:aliceblue;
+  height: 100vh;
+  background-color:azuret;
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* img  */
