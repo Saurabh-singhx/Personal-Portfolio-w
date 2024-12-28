@@ -4,6 +4,7 @@ import pr2 from './image/project 2.jpeg'
 import pr3 from './image/project 3.jpeg'
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import Magnet from './Magnet'
 
 function Projectsection({ setCursorColor }) {
         const [scrollPosition, setScrollPosition] = useState(0);
@@ -57,14 +58,21 @@ function Projectsection({ setCursorColor }) {
                     </div>
                     <h3 className='flex justify-center font-semibold text-lg'>Project One</h3>
                     <div className='flex gap-3 w-full justify-between p-6'>
-                        <button 
+                        <Magnet
+                            disabled={false}
+                            padding={10}
                             onMouseEnter={() => setCursorColor("bg-red-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
-                        className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button>
-                        <button 
+                            ><button className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button></Magnet>
+                        <Magnet
+                            disabled={false}
+                            padding={10}
+                            ><button 
+                            
                             onMouseEnter={() => setCursorColor("bg-green-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Live Demo</button>
+                        </Magnet>
 
                     </div>
                 </motion.div>
@@ -103,14 +111,24 @@ function Projectsection({ setCursorColor }) {
                     </div>
                     <h3 className='flex justify-center font-semibold text-lg'>Project Three</h3>
                     <div className='flex gap-3 w-full justify-between p-6'>
-                        <button 
-                            onMouseEnter={() => setCursorColor("bg-red-400")}
+                    <Magnet
+                            disabled={false}
+                            padding={10}
+                            ><button 
+                            
+                            onMouseEnter={() => setCursorColor("bg-green-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button>
-                        <button 
-                                onMouseEnter={() => setCursorColor("bg-green-400")}
-                                onMouseLeave={() => setCursorColor("bg-blue-500")}
-                                className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Live Demo</button>
+                        </Magnet>
+                        <Magnet
+                            disabled={false}
+                            padding={10}
+                            ><button 
+                            
+                            onMouseEnter={() => setCursorColor("bg-green-400")}
+                            onMouseLeave={() => setCursorColor("bg-blue-500")}
+                            className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Live Demo</button>
+                        </Magnet>
 
                     </div>
                 </motion.div>
