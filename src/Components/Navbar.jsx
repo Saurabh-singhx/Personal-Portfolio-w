@@ -1,17 +1,23 @@
 import React from "react";
 import List from './image/list.png'
+import ShinyText from './ShinyText';
 
 function Navbar({ setCursorColor }) {
+  
   return (
     <nav className="flex lg:justify-between lg:px-8 sm:h-40 lg:h-20 lg:w-auto items-center sm:w-full sm:px-6 ">
       {/* Logo Section */}
       <div className="flex sm:w-full sm:h-14 w-1/3 items-center">
-        <div
+        {/* <div
           onMouseEnter={() => setCursorColor("bg-teal-400")}
           onMouseLeave={() => setCursorColor("bg-blue-500")}
           className="flex items-center font-bold lg:text-3xl text-slate-900 w-1/4 sm:justify-center lg:h-10 sm:w-full sm:text-6xl sm:py-10 lg:py-0 lg:justify-start lg:px-10">
           Saurabh Kumar
-        </div>
+        </div> */}
+        <ShinyText 
+          onMouseEnter={() => setCursorColor("bg-teal-400")}
+          onMouseLeave={() => setCursorColor("bg-blue-500")}
+        text="Saurabh Kumar" disabled={false} speed={3} className='text-4xl font-semibold font-mono' />
         <img src={List} alt="" className="lg:hidden sm:flex w-12 h-full mt-6 justify-self-end"/>
       </div>
 
