@@ -58,12 +58,15 @@ function Projectsection({ setCursorColor }) {
                     </div>
                     <h3 className='flex justify-center font-semibold text-lg'>Project One</h3>
                     <div className='flex gap-3 w-full justify-between p-6'>
-                        <Magnet
+                    <Magnet
                             disabled={false}
                             padding={10}
+                            ><button 
+                            
                             onMouseEnter={() => setCursorColor("bg-red-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
-                            ><button className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button></Magnet>
+                            className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button>
+                        </Magnet>
                         <Magnet
                             disabled={false}
                             padding={10}
@@ -85,14 +88,24 @@ function Projectsection({ setCursorColor }) {
                     </div>
                     <h3 className='flex justify-center font-semibold text-lg'>Project Two</h3>
                     <div className='flex gap-3 w-full justify-between p-6'>
-                        <button 
+                    <Magnet
+                            disabled={false}
+                            padding={10}
+                            ><button 
+                            
                             onMouseEnter={() => setCursorColor("bg-red-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button>
-                        <button 
+                        </Magnet>
+                        <Magnet
+                            disabled={false}
+                            padding={10}
+                            ><button 
+                            
                             onMouseEnter={() => setCursorColor("bg-green-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Live Demo</button>
+                        </Magnet>
 
                     </div>
                 </div>
@@ -116,7 +129,7 @@ function Projectsection({ setCursorColor }) {
                             padding={10}
                             ><button 
                             
-                            onMouseEnter={() => setCursorColor("bg-green-400")}
+                            onMouseEnter={() => setCursorColor("bg-red-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button>
                         </Magnet>

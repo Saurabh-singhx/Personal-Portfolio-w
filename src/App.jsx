@@ -49,13 +49,12 @@ function App() {
     <>
       {!isMobile && (
         <div
-          className={`fixed top-0 left-0 w-14 h-14 rounded-full pointer-events-none ${cursorFilter} ${cursorColor}`}
-          style={{
-            transform: `translate(${cursorPosition.x - 28}px, ${
-              cursorPosition.y - 28
-            }px)`,
-          }}
-        ></div>
+        className={`fixed top-0 left-0 w-14 h-14 rounded-full pointer-events-none ${cursorFilter} ${cursorColor}`}
+        style={{
+          transform: `translate(${cursorPosition.x - 28}px, ${cursorPosition.y - 28}px)`,
+          zIndex: 9999, // Ensure the circle is on top
+        }}
+      ></div>
       )}
       
 
