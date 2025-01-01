@@ -4,7 +4,7 @@ import Pic from "./image/profpic.jpg";
 import Linkdin from "./image/Linkdin.png";
 import Github from "./image/github.png";
 import Magnet from "./Magnet";
-import CV from "./DownloadCV/Saurabh's Resume.pdf";
+import CV from "./DownloadCV/SaurabhResume.pdf";
 
 function Herosection({ setCursorColor, setCursorFilter }) {
     const [isFrontend, setIsFrontend] = useState(true);
@@ -78,7 +78,7 @@ function Herosection({ setCursorColor, setCursorFilter }) {
                     {/* 2 += Buttons */}
                     <div className="flex lg:gap-4 sm:w-full lg:w-80 sm:gap-12 justify-center">
                         <Magnet padding={5}>
-                            <a href="" download={CV}>
+                            <a href={CV} download="SaurabhResume.pdf">
                                 <button
 
                                     onMouseEnter={() => {
