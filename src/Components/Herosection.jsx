@@ -4,6 +4,7 @@ import Pic from "./image/profpic.jpg";
 import Linkdin from "./image/Linkdin.png";
 import Github from "./image/github.png";
 import Magnet from "./Magnet";
+import CV from "./DownloadCV/Saurabh's Resume.pdf"
 
 function Herosection({ setCursorColor, setCursorFilter }) {
     const [isFrontend, setIsFrontend] = useState(true);
@@ -77,20 +78,23 @@ function Herosection({ setCursorColor, setCursorFilter }) {
                     {/* 2 += Buttons */}
                     <div className="flex lg:gap-4 sm:w-full lg:w-80 sm:gap-12 justify-center">
                         <Magnet padding={5}>
-                            <button
-                                onMouseEnter={() => {
-                                    setCursorColor("bg-red-400");
-                                    setCursorFilter("mix-blend-exclusion");
-                                }}
-                                onMouseLeave={() => {
-                                    setCursorColor("bg-blue-400");
-                                    setCursorFilter("mix-blend-screen");
-                                }}
-                                className="bg-transparent text-black font-medium border lg:rounded-3xl lg:px-2 lg:h-10 hover:bg-black hover:text-white duration-200 transition-all sm:h-28 lg:w-auto sm:w-1/3 sm:rounded-full sm:text-2xl lg:text-base"
-                                aria-label="Download CV"
-                            >
-                                Download CV
-                            </button>
+                            <a download={CV}>
+                                <button
+
+                                    onMouseEnter={() => {
+                                        setCursorColor("bg-red-400");
+                                        setCursorFilter("mix-blend-exclusion");
+                                    }}
+                                    onMouseLeave={() => {
+                                        setCursorColor("bg-blue-400");
+                                        setCursorFilter("mix-blend-screen");
+                                    }}
+                                    className="bg-transparent text-black font-medium border lg:rounded-3xl lg:px-2 lg:h-10 hover:bg-black hover:text-white duration-200 transition-all sm:h-28 lg:w-auto sm:w-1/3 sm:rounded-full sm:text-2xl lg:text-base"
+                                    aria-label="Download CV"
+                                >
+                                    Download CV
+                                </button>
+                            </a>
                         </Magnet>
                         <Magnet padding={5}>
                             <button

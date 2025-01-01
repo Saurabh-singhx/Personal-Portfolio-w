@@ -56,13 +56,15 @@ function Projectsection({ setCursorColor }) {
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                         src={pr1} alt="project-pic" className='w-full lg:h-56 rounded-3xl sm:h-full' />
                     </div>
-                    <h3 className='flex justify-center font-semibold text-lg'>Project One</h3>
+                    <h3 className='flex justify-center font-semibold text-lg'>Task Management APP</h3>
                     <div className='flex gap-3 w-full justify-between p-6'>
                     <Magnet
                             disabled={false}
                             padding={10}
                             ><button 
-                            
+                            onClick={()=>{
+                                window.location.href = "https://github.com/Saurabh-singhx/Employee-Task-Management";
+                            }}
                             onMouseEnter={() => setCursorColor("bg-red-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button>
@@ -71,7 +73,9 @@ function Projectsection({ setCursorColor }) {
                             disabled={false}
                             padding={10}
                             ><button 
-                            
+                            onClick={()=>{
+                                window.location.href = "https://saurabh-singhx.github.io/Employee-Task-Management/";
+                            }}
                             onMouseEnter={() => setCursorColor("bg-green-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Live Demo</button>
@@ -86,13 +90,15 @@ function Projectsection({ setCursorColor }) {
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                         src={pr2} alt="project-pic" className='w-full lg:h-56 rounded-3xl sm:h-full border border-gray-900' />
                     </div>
-                    <h3 className='flex justify-center font-semibold text-lg'>Project Two</h3>
+                    <h3 className='flex justify-center font-semibold text-lg'>Personal Portfolio</h3>
                     <div className='flex gap-3 w-full justify-between p-6'>
                     <Magnet
                             disabled={false}
                             padding={10}
                             ><button 
-                            
+                            onClick={()=>{
+                                window.location.href = "https://github.com/Saurabh-singhx/Personal-Portfolio-w";
+                            }}
                             onMouseEnter={() => setCursorColor("bg-red-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button>
@@ -101,7 +107,9 @@ function Projectsection({ setCursorColor }) {
                             disabled={false}
                             padding={10}
                             ><button 
-                            
+                            onClick={()=>{
+                                window.location.href = "https://saurabh-singhx.github.io/Personal-Portfolio-w/";
+                            }}
                             onMouseEnter={() => setCursorColor("bg-green-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Live Demo</button>
@@ -122,13 +130,15 @@ function Projectsection({ setCursorColor }) {
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                         src={pr3} alt="project-pic" className='w-full lg:h-56 rounded-3xl sm:h-full' />
                     </div>
-                    <h3 className='flex justify-center font-semibold text-lg'>Project Three</h3>
+                    <h3 className='flex justify-center font-semibold text-lg'>Tic Tac Toe</h3>
                     <div className='flex gap-3 w-full justify-between p-6'>
                     <Magnet
                             disabled={false}
                             padding={10}
                             ><button 
-                            
+                            onClick={()=>{
+                                window.location.href = "https://github.com/Saurabh-singhx/Tictactoe-Game";
+                            }}
                             onMouseEnter={() => setCursorColor("bg-red-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Git Hub</button>
@@ -137,7 +147,9 @@ function Projectsection({ setCursorColor }) {
                             disabled={false}
                             padding={10}
                             ><button 
-                            
+                            onClick={()=>{
+                                window.location.href = "/";
+                            }}
                             onMouseEnter={() => setCursorColor("bg-green-400")}
                             onMouseLeave={() => setCursorColor("bg-blue-500")}
                             className='hover:bg-black hover:text-white transition duration-300 ease-in-out lg:py-2 lg:px-4 rounded-3xl border border-zinc-800 font-semibold w-28 sm:py-4 lg:w-auto sm:w-1/2 lg:text-base sm:text-2xl'>Live Demo</button>
