@@ -84,7 +84,7 @@ function Navbar({ setCursorColor }) {
 
       {/* Sliding Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-gray-100 shadow-lg transform transition-transform duration-300 z-10 ${
+        className={`fixed top-0 right-0 h-[50%] w-64 bg-gray-100 shadow-lg transform transition-transform duration-300 z-10 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

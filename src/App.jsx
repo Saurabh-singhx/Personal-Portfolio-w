@@ -62,10 +62,10 @@ function App() {
         <Navbar setCursorColor={setCursorColor} setCursorFilter={setCursorFilter}/>
         <Herosection setCursorColor={setCursorColor} setCursorFilter={setCursorFilter}/>
       </div>
-      {/* <Aboutsection setCursorColor={setCursorColor} setCursorFilter={setCursorFilter}/>
+      <Aboutsection setCursorColor={setCursorColor} setCursorFilter={setCursorFilter}/>
       <Experience setCursorColor={setCursorColor}/>
       <Projectsection setCursorColor={setCursorColor}/>
-      <Contactinfo setCursorColor={setCursorColor}/> */}
+      <Contactinfo setCursorColor={setCursorColor}/>
 
       
     </>
