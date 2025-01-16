@@ -1,0 +1,92 @@
+@media (max-width: 1025px) {
+    .Navbar {
+      /* font-size: 1.5rem; */
+      padding-right: 10px;
+      padding-left:15px;
+      height: 9vh;
+
+    }
+    .Sections{
+        display: none;
+    }
+    .Namee{
+        font-size: 1.7em;
+        font-weight:bolder;
+    }
+    .Namediv{
+        width: 100%;
+    }
+    .Menu{
+        display: flex;
+    }
+    .Hero{
+        flex-direction: column;
+    }
+    .Mypic{
+        height: 30vh;
+        width: 60vw;
+    }
+    /* .Textsection{
+        font-size: medium;
+    } */
+    .Hero{
+        flex-direction: column;
+    }
+    .imagediv{
+        height: 14rem;
+        width: 14rem;
+        margin-top: 8vh;
+    }
+    .Textsection{
+        font-size: medium;
+        gap: 0.5rem;
+        align-items: start;
+    }
+    .Magnetbtn{
+        gap: 2rem;
+        width: full;
+        height: 1.5rem;
+
+    }
+    .Btn1{
+        border-radius: 40px;
+        padding: 4px;
+    }
+    .Btn2{
+        border-radius: 40px;
+        padding: 4px;
+    }
+    .divmoving{
+        width: 11rem;
+    }
+    .Github{
+        width: 3rem;
+    }
+    .Cv{
+        width: 3rem;
+    }
+    .imagesc{
+        gap: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+}
+@media (min-width: 853px) {
+    
+    .Menu{
+        display:none;
+    }
+}
+/* @media (max-width:1025px){
+    .Hero{
+        flex-direction: column;
+    }
+    .imagediv{
+        height: 14rem;
+        width: 14rem;
+    }
+    .Textsection{
+        font-size: smaller;
+    }
+    
+} */

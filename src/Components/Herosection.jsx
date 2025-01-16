@@ -20,9 +20,9 @@ function Herosection({ setCursorColor, setCursorFilter }) {
         window.open("mailto:saurabh4442kumar@gmail.com")
     }
     return (
-        <div className="flex w-full lg:justify-center items-center gap-20 h-full p-4 sm:flex-col lg:flex-row">
+        <div className="flex w-full lg:justify-center items-center gap-20 h-full p-4 sm:flex-col lg:flex-row Hero">
             {/* Profile Picture */}
-            <div className="lg:w-80 lg:h-80 bg-black rounded-full overflow-hidden border border-slate-700 shadow-red-300 sm:w-1/2 sm:h-1/4 sm:mt-60 lg:mt-0">
+            <div className="lg:w-80 lg:h-80 overflow-hidden shadow-red-300 sm:w-1/2 sm:h-1/4 lg:mt-0 shrink-0 imagediv">
                 <img
 
                     onMouseEnter={() => {
@@ -35,21 +35,21 @@ function Herosection({ setCursorColor, setCursorFilter }) {
                     }}
                     src={Pic}
                     alt="profile"
-                    className="lg:w-96 lg:h-96 lg:-translate-y-8 filter grayscale transition-all delay-200 sm:w-full sm:-translate-y-16"
+                    className="w-full h-full lg:-translate-y-0 filter grayscale transition-all delay-200 Mypic rounded-full shrink-0"
                 />
             </div>
 
             {/* Text Section */}
-            <div className="flex flex-col lg:gap-8 sm:2/3 lg:w-auto sm:items-center sm:gap-16 sm:w-full">
+            <div className="flex flex-col lg:gap-6 lg:w-auto Textsection items-center">
                 <div className="flex flex-col ">
-                    <p className="font-medium w-36 items-center justify-center flex sm:text-4xl lg:text-lg">
+                    <p className="font-medium w-36 items-center flex lg:text-lg">
                         Hello I'm
                     </p>
-                    <h2 className="font-semibold sm:text-6xl lg:text-4xl">Saurabh Kumar</h2>
+                    <h2 className="font-semibold lg:text-4xl">Saurabh Kumar</h2>
                 </div>
 
                 {/* Typewriter Effect */}
-                <div className="sm:w-96 lg:w-64">
+                <div className="w-[75%] divmoving">
                     <motion.div
                         key={isFrontend ? "frontend" : "backend"} // Unique key to trigger animation on text change
                         animate={{
@@ -66,17 +66,17 @@ function Herosection({ setCursorColor, setCursorFilter }) {
                             whiteSpace: "nowrap",
                             borderRight: "2px solid black", // Cursor effect
                         }}
-                        className="font-mono font-extralight sm:text-4xl lg:text-2xl"
+                        className="font-mono font-extralight lg:text-2xl"
                     >
                         {isFrontend ? "Frontend Developer" : "Backend Developer"}
                     </motion.div>
                 </div>
 
                 {/* Buttons+Social */}
-                <div className="flex gap-3 flex-col w-full">
+                <div className="flex gap-5 flex-col w-full">
 
                     {/* 2 += Buttons */}
-                    <div className="flex lg:gap-4 sm:w-full lg:w-80 sm:gap-12 justify-center">
+                    <div className="flex lg:gap-10 lg:w-80 justify-center Magnetbtn">
                         <Magnet padding={5}>
                             <a href={CV} download="SaurabhResume.pdf">
                                 <button
@@ -89,7 +89,7 @@ function Herosection({ setCursorColor, setCursorFilter }) {
                                         setCursorColor("bg-blue-400");
                                         setCursorFilter("mix-blend-screen");
                                     }}
-                                    className="bg-transparent text-black font-medium border lg:rounded-3xl lg:px-2 lg:h-10 hover:bg-black hover:text-white duration-200 transition-all sm:h-28 lg:w-auto sm:w-1/3 sm:rounded-full sm:text-2xl lg:text-base"
+                                    className=" Btn1 bg-transparent text-black font-medium border lg:rounded-3xl lg:px-2 lg:h-10 hover:bg-black hover:text-white duration-200 transition-all lg:w-auto lg:text-base"
                                     aria-label="Download CV"
                                 >
                                     Download CV
@@ -107,7 +107,7 @@ function Herosection({ setCursorColor, setCursorFilter }) {
                                     setCursorColor("bg-blue-400");
                                     setCursorFilter("mix-blend-screen");
                                 }}
-                                className="bg-black text-white font-medium border lg:rounded-3xl lg:px-2 lg:h-10 hover:text-black hover:bg-white duration-200 transition-all border-black sm:h-28 lg:w-auto sm:w-1/3 sm:rounded-full sm:text-2xl lg:text-base"
+                                className=" Btn2 bg-black text-white font-medium border lg:rounded-3xl lg:px-2 lg:h-10 hover:text-black hover:bg-white duration-200 transition-all border-black lg:w-auto lg:text-base"
                                 aria-label="Contact Info"
                             >
                                 Contact Info
@@ -116,24 +116,23 @@ function Herosection({ setCursorColor, setCursorFilter }) {
                     </div>
 
                     {/* Social Media Links */}
-                    <div className="flex w-full sm:gap-14 justify-center items-center sm:mt-14 lg:gap-3 lg:mt-0">
-                        <div className="lg:h-8 lg:w-8 overflow-hidden ">
-                            <a
-                                href="https://www.linkedin.com/in/saurabh-kumar0"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="LinkedIn Profile"
-                            >
-                                <img src={Linkdin} alt="LinkedIn" className="sm:h-24 lg:h-auto" />
-                            </a>
-                        </div>
+                    <div className="flex w-full justify-center items-center lg:gap-3 lg:mt-0 imagesc">
+
+                        <a
+                            href="https://www.linkedin.com/in/saurabh-kumar0"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn Profile"
+                        >
+                            <img src={Linkdin} alt="LinkedIn" className=" h-12 w-12 Cv" />
+                        </a>
                         <a
                             href="https://github.com/Saurabh-singhx"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="GitHub Profile"
                         >
-                            <img src={Github} alt="GitHub" className="sm:h-24 lg:h-7 lg:w-7" />
+                            <img src={Github} alt="GitHub" className=" lg:h-12 lg:w-12 Github" />
                         </a>
                     </div>
                 </div>
