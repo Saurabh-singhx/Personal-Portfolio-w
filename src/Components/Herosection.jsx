@@ -35,7 +35,7 @@ function Herosection({ setCursorColor, setCursorFilter }) {
                     }}
                     src={Pic}
                     alt="profile"
-                    className="w-full h-full lg:-translate-y-0 filter grayscale transition-all delay-200 Mypic rounded-full shrink-0"
+                    className="w-full h-full lg:-translate-y-0 filter grayscale transition-all delay-200 Mypic rounded-full shrink-0 border border-slate-700"
                 />
             </div>
 

@@ -1,4 +1,7 @@
 @media (max-width: 1025px) {
+
+    /* Navbar */
+
     .Navbar {
       /* font-size: 1.5rem; */
       padding-right: 10px;
@@ -19,6 +22,10 @@
     .Menu{
         display: flex;
     }
+
+
+    /* Herosection */
+
     .Hero{
         flex-direction: column;
     }
@@ -68,6 +75,25 @@
     .imagesc{
         gap: 0.8rem;
         margin-top: 0.5rem;
+    }
+
+    /* About Section */
+
+    .Mainsec{
+        flex-direction: column;
+    }
+    .Zoroimg{
+        width: 60vw;
+        height: 50vh;
+        display: none;
+
+    }
+    .twoBox{
+        font-size: 1rem;
+        flex-direction: column;
+    }
+    .abouttext{
+        text-align: left;
     }
 
 }

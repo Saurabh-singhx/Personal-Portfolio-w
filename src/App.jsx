@@ -63,9 +63,9 @@ function App() {
         <Herosection setCursorColor={setCursorColor} setCursorFilter={setCursorFilter}/>
       </div>
       <Aboutsection setCursorColor={setCursorColor} setCursorFilter={setCursorFilter}/>
-      <Experience setCursorColor={setCursorColor}/>
+      {/* <Experience setCursorColor={setCursorColor}/>
       <Projectsection setCursorColor={setCursorColor}/>
-      <Contactinfo setCursorColor={setCursorColor}/>
+      <Contactinfo setCursorColor={setCursorColor}/> */}
 
       
     </>
