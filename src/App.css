@@ -81,6 +81,7 @@
 
     .Mainsec{
         flex-direction: column;
+        overflow-y: hidden;
     }
     .Zoroimg{
         width: 60vw;
@@ -94,6 +95,23 @@
     }
     .abouttext{
         text-align: left;
+        overflow: hidden;
+    }
+    /* .Text{
+        overflow: scroll;
+    } */
+
+    /* Project section */
+
+    .MainPro{
+        flex-direction: column;
+        gap:2rem
+    }
+    .Project{
+        height: auto;
+    }
+    .Contact{
+        margin-top: 30rem;
     }
 
 }
@@ -103,16 +121,27 @@
         display:none;
     }
 }
-/* @media (max-width:1025px){
-    .Hero{
+
+/* Experience section */
+@media (max-width:1027px){
+    
+    .mainExp{
         flex-direction: column;
+        width: 100%;
     }
-    .imagediv{
-        height: 14rem;
-        width: 14rem;
-    }
-    .Textsection{
+    .FirstBox{
+        width: 20rem;
+        height: 17rem;
         font-size: smaller;
     }
-    
-} */
+    .Innerbox{
+        gap:0px;
+    }
+    .Headline{
+        margin-top: 15px;
+    }
+    .Leftcol{
+        margin-top: 10%;
+        gap:0px;
+    }
+}

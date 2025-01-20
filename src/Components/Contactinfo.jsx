@@ -9,7 +9,7 @@ function Contactinfo({ setCursorColor }) {
         window.open("mailto:saurabh4442kumar@gmail.com")
     }
     return (
-        <div id="Contact"  className='h-screen flex flex-col w-full p-8'>
+        <div id="Contact"  className='h-screen flex flex-col w-full p-8 Contact'>
             <div className='items-center w-full h-1/2 flex flex-col justify-center lg:gap-6 sm:gap-4'>
                 <p className='font-light lg:text-base sm:text-xl'>Get in Touch</p>
                 <h2 className='font-bold lg:text-4xl sm:text-5xl'>Contact Me</h2>

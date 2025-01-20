@@ -4,7 +4,7 @@ import Pic from "./image/profpic.jpg";
 import Linkdin from "./image/Linkdin.png";
 import Github from "./image/github.png";
 import Magnet from "./Magnet";
-import CV from "./DownloadCV/SaurabhResume.pdf";
+import CV from "./DownloadCV/My-resume-6S.pdf";
 
 function Herosection({ setCursorColor, setCursorFilter }) {
     const [isFrontend, setIsFrontend] = useState(true);

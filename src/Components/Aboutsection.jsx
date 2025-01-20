@@ -35,7 +35,7 @@ function Aboutsection({ setCursorColor }) {
               {/* <p className='w-full flex justify-center'>MCA Masters Degree</p> */}
             </div>
           </div>
-          <div className='overflow-hidden px-3 lg:w-auto lg:text-base'>
+          <div className='overflow-hidden px-3 lg:w-auto lg:text-base Text'>
             <p className='text-center abouttext'>A budding Web Developer with a strong foundation in React, JavaScript, and Tailwind CSS, I am currently pursuing a BCA at Patliputra University. My focus is on designing and developing responsive, user-friendly web applications that solve real-world problems. With hands-on experience in projects like the Employee Task Management System and Personal Portfolio Website, I strive to create intuitive and efficient digital solutions. Passionate about continuous learning and innovation, I aim to contribute effectively to dynamic and forward-thinking development teams.</p>
           </div>
         </div>
