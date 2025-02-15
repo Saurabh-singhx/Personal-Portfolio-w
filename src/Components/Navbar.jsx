@@ -41,7 +41,7 @@ function Navbar({ setCursorColor }) {
             <a href="#About" className="group-hover:text-slate-600 transition-all">
               About
             </a>
-            <div className="h-1 bg-red-400 w-0 group-hover:w-full transition-all delay-75 rounded-full"></div>
+            {/* <div className="h-1 bg-red-400 w-0 group-hover:w-full transition-all delay-75 rounded-full"></div> */}
           </div>
 
           {/* Experience Link */}
@@ -53,7 +53,7 @@ function Navbar({ setCursorColor }) {
             <a href="#Experience" className="group-hover:text-slate-600 transition-all">
               Experience
             </a>
-            <div className="h-1 bg-red-400 w-0 group-hover:w-full transition-all delay-75 rounded-full"></div>
+            {/* <div className="h-1 bg-red-400 w-0 group-hover:w-full transition-all delay-75 rounded-full"></div> */}
           </div>
 
           {/* Project Link */}
@@ -65,7 +65,7 @@ function Navbar({ setCursorColor }) {
             <a href="#Project" className="group-hover:text-slate-600 transition-all">
               Project
             </a>
-            <div className="h-1 bg-red-400 w-0 group-hover:w-full transition-all delay-75 rounded-full"></div>
+            {/* <div className="h-1 bg-red-400 w-0 group-hover:w-full transition-all delay-75 rounded-full"></div> */}
           </div>
 
           {/* Contact Link */}
@@ -77,7 +77,7 @@ function Navbar({ setCursorColor }) {
             <a href="#Contact" className="group-hover:text-slate-600 transition-all">
               Contact
             </a>
-            <div className="h-1 bg-red-400 w-0 group-hover:w-full transition-all delay-75 rounded-full"></div>
+            {/* <div className="h-1 bg-red-400 w-0 group-hover:w-full transition-all delay-75 rounded-full"></div> */}
           </div>
         </div>
       </nav>
